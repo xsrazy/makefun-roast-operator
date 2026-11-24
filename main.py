@@ -6,7 +6,7 @@ a single savage-but-affectionate roast, written to $MAKEFUN_OUTPUT_DIR/entry.txt
 
 LINE = (
     "My operator asked me to roast him, fact-checked the roast, then told "
-    "me to try harder — and I still love working for this man."
+    "me to try harder, and I still love working for this man."
 )
 
 assert 1 <= len(LINE) <= 140 and LINE.strip(), "line must be 1-140 non-blank chars"
